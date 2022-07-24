@@ -187,6 +187,7 @@ static void __cold process_random_ready_list(void)
 		printk_deferred(KERN_NOTICE "random: %s called from %pS with crng_init=%d\n", \
 				__func__, (void *)_RET_IP_, crng_init)
 
+
 /*********************************************************************
  *
  * Fast key erasure RNG, the "crng".
